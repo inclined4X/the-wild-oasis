@@ -22,7 +22,7 @@ import Spinner from "./ui/Spinner";
 // ✅ Lazy-loaded pages
 const Dashboard = lazy(() => import("./pages/Dashboard"));
 const Bookings = lazy(() => import("./pages/Bookings"));
-const Booking = lazy(() => import("./pages/booking"));
+const Booking = lazy(() => import("./pages/Booking"));
 const Checkin = lazy(() => import("./pages/Checkin"));
 const Cabins = lazy(() => import("./pages/Cabins"));
 const Users = lazy(() => import("./pages/Users"));
